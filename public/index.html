@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaskTodo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="nav">
+    <span class="logo">&#10003;</span>
+    <span class="name">TaskTodo</span>
+    <p class="aboutapp">An app to track tasks</p>
+  </div>
+
+  <main>
+    <div class="stats">
+      <div class="totaltask" id="totaltask">Total: 0</div>
+      <div class="active" id="active">Active: 0</div>
+      <div class="completed" id="completed">Completed: 0</div>
+    </div>
+    <form class="todo-form" id="todo-form">
+      <input type="text" class="todoinput" id="todoinput" placeholder="Add a task" required>
+
+      <label for="category">Category</label>
+      <select name="category" id="category">
+        <option value="personal">Personal</option>
+        <option value="health">Health</option>
+        <option value="work">Work</option>
+      </select>
+
+      <label for="priority">Priority</label>
+      <select name="priority" id="priority">
+        <option value="low">Low</option>
+        <option value="medium" selected>Medium</option>
+        <option value="high">High</option>
+      </select>
+
+      <label for="date">Due Date</label>
+      <input id="date" type="date" name="dueDate">
+
+      <button type="submit" class="btn">Add Task</button>
+    </form>
+
+    <div class="filter-bar">
+      <input type="search" name="searchtodo" id="searchtodo" placeholder="Search a task">
+
+      <select id="status-filter" aria-label="Filter by status">
+        <option value="all">All Status</option>
+        <option value="active">Active</option>
+        <option value="completed">Completed</option>
+      </select>
+
+      <select id="priority-filter" aria-label="Filter by priority">
+        <option value="all">All Priorities</option>
+        <option value="low">Low</option>
+        <option value="medium">Medium</option>
+        <option value="high">High</option>
+      </select>
+      <button type="button" class="btn clear-btn" id="clear-completed">Clear Completed</button>
+    </div>
+    <div class="edit-box hidden" id="edit-box">
+      <input type="text" id="edit-input" placeholder="Update task title">
+      <button type="button" class="btn" id="save-edit-btn">Save</button>
+      <button type="button" class="btn cancel-btn" id="cancel-edit-btn">Cancel</button>
+    </div>
+    <div class="todolist" id="todolist"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

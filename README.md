@@ -1,0 +1,24 @@
+# TaskTodo
+
+A full-stack Todo application built with Express and vanilla JavaScript.
+
+## Features
+
+- Filter tasks by status (active, completed), priority, and category
+- Search functionality
+- Due date tracking
+- Clean, responsive UI
+
+## Getting Started
+
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+2. Start the server:
+   ```bash
+   npm start
+   ```
+
+3. Open your browser and navigate to `http://localhost:3000`.
