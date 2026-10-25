@@ -12,14 +12,14 @@ body {
 }
 .nav {
   background-color: rgb(35, 27, 184);
-  color: #ffffff;
+  color: rgb(255, 255, 255);
   padding: 18px;
   text-align: center;
 }
 .logo {
   display: inline-block;
-  background-color: #ffffff;
-  color: #4f46e5;
+  background-color: rgb(255, 255, 255);
+  color: rgb(79, 70, 229);
   font-weight: bold;
   padding: 4px 9px;
   border-radius: 50%;
@@ -32,7 +32,7 @@ body {
 
 .aboutapp {
   font-size: 14px;
-  color: #e0e7ff;
+  color: rgb(224, 231, 255);
   margin-top: 4px;
 }
 main {
@@ -50,9 +50,9 @@ main {
 .active,
 .completed {
   flex: 1;
-  background-color: #ffffff;
-  border: 1px solid #dcdcdc;
-  border-top: 4px solid #4f46e5;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(220, 220, 220);
+  border-top: 4px solid rgb(79, 70, 229);
   padding: 12px;
   text-align: center;
   font-weight: bold;
@@ -60,13 +60,13 @@ main {
 }
 
 .completed {
-  border-top-color: #10b981;
+  border-top-color: rgb(16, 185, 129);
 }
 .todo-form,
 .filter-bar,
 .edit-box {
-  background-color: #ffffff;
-  border: 1px solid #dcdcdc;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(220, 220, 220);
   padding: 15px;
   border-radius: 6px;
   margin-bottom: 18px;
@@ -81,16 +81,16 @@ main {
 #edit-input {
   flex: 1 1 100%;
   padding: 9px 12px;
-  border: 1px solid #cccccc;
+  border: 1px solid rgb(204, 204, 204);
   border-radius: 4px;
   font-size: 14px;
 }
 select,
 input[type="date"] {
   padding: 8px 10px;
-  border: 1px solid #cccccc;
+  border: 1px solid rgb(204, 204, 204);
   border-radius: 4px;
-  background-color: #ffffff;
+  background-color: rgb(255, 255, 255);
   font-size: 14px;
 }
 
@@ -100,18 +100,18 @@ input[type="date"] {
 select:focus,
 input[type="date"]:focus {
   outline: none;
-  border-color: #4f46e5;
+  border-color: rgb(79, 70, 229);
 }
 
 label {
   font-size: 14px;
   font-weight: bold;
-  color: #444444;
+  color: rgb(68, 68, 68);
 }
 
 .btn {
-  background-color: #4f46e5;
-  color: #ffffff;
+  background-color: rgb(79, 70, 229);
+  color: rgb(255, 255, 255);
   border: none;
   padding: 9px 16px;
   border-radius: 4px;
@@ -120,18 +120,18 @@ label {
 }
 
 .btn:hover {
-  background-color: #4338ca;
+  background-color: rgb(67, 56, 202);
 }
 
 .clear-btn,
 .cancel-btn {
-  background-color: #ef4444;
-  color: #ffffff;
+  background-color: rgb(239, 68, 68);
+  color: rgb(255, 255, 255);
 }
 
 .clear-btn:hover,
 .cancel-btn:hover {
-  background-color: #dc2626;
+  background-color: rgb(220, 38, 38);
 }
 
 .todolist {
@@ -141,9 +141,9 @@ label {
 }
 
 .todo-item {
-  background-color: #ffffff;
-  border: 1px solid #dcdcdc;
-  border-left: 5px solid #4f46e5;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(220, 220, 220);
+  border-left: 5px solid rgb(79, 70, 229);
   border-radius: 6px;
   padding: 12px 15px;
   display: flex;
@@ -153,13 +153,13 @@ label {
 }
 
 .todo-item.done {
-  background-color: #f0fdf4;
-  border-left-color: #10b981;
+  background-color: rgb(240, 253, 244);
+  border-left-color: rgb(16, 185, 129);
 }
 
 .todo-item.done .todo-title {
   text-decoration: line-through;
-  color: #777777;
+  color: rgb(119, 119, 119);
 }
 
 .todo-info {
@@ -173,7 +173,7 @@ label {
   width: 17px;
   height: 17px;
   cursor: pointer;
-  accent-color: #10b981;
+  accent-color: rgb(16, 185, 129);
 }
 
 .todo-title {
@@ -181,8 +181,8 @@ label {
 }
 
 .tag {
-  background-color: #e0e7ff;
-  color: #3730a3;
+  background-color: rgb(224, 231, 255);
+  color: rgb(55, 48, 163);
   font-size: 12px;
   font-weight: bold;
   padding: 3px 8px;
